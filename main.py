@@ -13,7 +13,7 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 engine.setProperty('rate', 180)
-newsapi = "15310fe437ff4a06bb1cbfe3381dc656"
+newsapi = "<News API key>"
 
 def speak_old(text):
     engine.say(text)
@@ -42,7 +42,7 @@ def speak(text):
 
 
 # For AI Processing..
-genai.configure(api_key="AIzaSyCzCs1Qwz3RexR2-p3QnvnJSsmGEcJL9I0")
+genai.configure(api_key="<Gemini API key>")
 
 def aiProcess(command):
     model = genai.GenerativeModel("gemini-2.0-flash")

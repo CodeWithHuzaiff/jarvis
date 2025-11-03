@@ -1,6 +1,6 @@
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCzCs1Qwz3RexR2-p3QnvnJSsmGEcJL9I0")
+genai.configure(api_key="<Gemini API key>")
 
 def aiProcess(command):
     model = genai.GenerativeModel("gemini-2.0-flash")
