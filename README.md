@@ -20,7 +20,7 @@ Technologies Used
 
 Python 3 
 SpeechRecognition** – For capturing voice commands  
-gTTS** – For converting text to speech  
+**gTTS** – For converting text to speech  
 Pygame** – For playing audio  
 Google Generative AI (Gemini API)** – For intelligent responses  
 Requests** – For fetching news articles  
