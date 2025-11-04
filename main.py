@@ -90,7 +90,7 @@ def processCommand(c):
                 speak(article['title'])
 
         else:
-            speak("I cannot fetch news without an API key.")
+            speak("I cannot fetch news without an A P I key.")
 
     else:
         # Let AI handle the request
